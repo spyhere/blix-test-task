@@ -4,7 +4,7 @@ import { Albums } from "../enums/Albums"
 import { SongT } from "../db-mock/types"
 import Album from "./Album"
 import Song from "./Song"
-import { Player } from "./index"
+import Player from "./Player"
 
 const albums: Albums[] = (() => {
   const keys: Albums[] = []
