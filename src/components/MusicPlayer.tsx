@@ -40,7 +40,7 @@ const MusicPlayer = () => {
         <div className="songs">
           {
             library[album].data.map((it, index) =>
-              <Song key={it.album + it.name} handleChoose={handleSongClick} meta={it} order={index}/>)
+              <Song key={it.album + it.name} handleChoose={handleSongClick} meta={it} order={index} selected={song}/>)
           }
         </div>
       )}

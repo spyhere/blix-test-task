@@ -65,6 +65,12 @@
     color: #fff;
 }
 
+.song--selected {
+    background: dodgerblue !important;
+    color: #fff;
+    box-shadow: 2px 2px 5px -2px #000;
+}
+
 .player {
     position: absolute;
     bottom: 0;
