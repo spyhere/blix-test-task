@@ -26,15 +26,15 @@ export const library: Library = {
       { album: Albums.ORIGIN, name: "Space Dementia", length: "6:11", cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Museshowbizalbumcover.jpg"},
     ]
   },
-  [Albums.Absolution]: {
+  [Albums.ABSOLUTION]: {
     meta: {
       year: 2003,
       formats: ["CD", "LPS"]
     },
     data: [
-      { album: Albums.Absolution, name: "Apocalypse Please", length: "4:22", cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Museshowbizalbumcover.jpg"},
-      { album: Albums.Absolution, name: "Time is Running out", length: "4:22", cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Museshowbizalbumcover.jpg"},
-      { album: Albums.Absolution, name: "Sing for Absolution", length: "4:22", cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Museshowbizalbumcover.jpg"},
+      { album: Albums.ABSOLUTION, name: "Apocalypse Please", length: "4:22", cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Museshowbizalbumcover.jpg"},
+      { album: Albums.ABSOLUTION, name: "Time is Running out", length: "4:22", cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Museshowbizalbumcover.jpg"},
+      { album: Albums.ABSOLUTION, name: "Sing for Absolution", length: "4:22", cover: "https://upload.wikimedia.org/wikipedia/en/9/9d/Museshowbizalbumcover.jpg"},
     ]
   },
   [Albums.BLACK_HOLES]: {

@@ -1,7 +1,7 @@
 export enum Albums {
   SHOWBIZ = "Showbiz",
   ORIGIN = "Origin of Symmetry",
-  Absolution = "Absolution",
+  ABSOLUTION = "ABSOLUTION",
   BLACK_HOLES = "Black Holes and Revelations",
   RESISTANCE = "The Resistance",
 }
