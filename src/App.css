@@ -39,6 +39,9 @@
 
 .song {
     display: flex;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 .song__order {
@@ -55,6 +58,11 @@
 
 .song:nth-child(2n) {
     background: #eee;
+}
+
+.song:hover {
+    background: dodgerblue;
+    color: #fff;
 }
 
 .player {
