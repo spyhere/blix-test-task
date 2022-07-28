@@ -6,13 +6,15 @@ type Props = {
   album: Albums
   handleChoose: (album: Albums) => void
   meta: AlbumT["meta"]
+  selected: Albums | null
 }
 
-const Album = ({ album, handleChoose, meta }: Props) => {
+const Album = ({ album, handleChoose, meta, selected }: Props) => {
 
+  const selectedStyle = selected === album ? " album--selected" : ""
   return (
     <>
-      <div className="album" onClick={() => handleChoose(album)}>
+      <div title={String(meta.year)} className={"album" + selectedStyle} onClick={() => handleChoose(album)}>
         {album}
       </div>
     </>

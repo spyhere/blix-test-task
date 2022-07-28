@@ -5,7 +5,8 @@
 }
 
 .albums {
-    display: flex;
+    display: grid;
+    grid: 100px 100px / 1fr 1fr 1fr;
     gap: 20px;
     padding: 0 20px;
     justify-content: space-around;
@@ -19,6 +20,10 @@
     font-weight: 200;
     padding: 8px;
     transition-duration: 0.5s;
+}
+
+.album--selected {
+    background: coral;
 }
 
 .album:hover {
