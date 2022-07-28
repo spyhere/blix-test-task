@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+
+.music-player {
+    line-height: 20px;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.albums {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.album {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-weight: 200;
+    padding: 8px;
+    transition-duration: 0.5s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.album:hover {
+    background: coral;
+    font-size: 1.6em;
 }
 
-.App-link {
-  color: #61dafb;
+.songs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.song {
+    display: flex;
+}
+
+.song__order {
+    flex-basis: 15px;
+}
+
+.song__name {
+    flex-grow: 1;
+}
+
+.song__length {
+    flex-basis: 20px;
+}
+
+.song:nth-child(2n) {
+    background: #eee;
 }
