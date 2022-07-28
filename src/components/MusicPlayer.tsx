@@ -20,7 +20,6 @@ const MusicPlayer = () => {
 
   const handleAlbumClick = (album: Albums) => {
     setAlbum(album)
-    setSong(null)
   }
 
   const handleSongClick = (song: SongT) => {
