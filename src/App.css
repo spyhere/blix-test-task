@@ -121,3 +121,26 @@
     font-size: 0.8em;
     display: flex;
 }
+
+@media screen and (max-width: 600px) {
+    .albums {
+        grid: 100px 100px 100px / 1fr 1fr;
+    }
+
+    .album {
+        font-weight: normal;
+    }
+
+    .songs {
+        gap: 10px;
+        font-size: 1.2em;
+    }
+
+    .player {
+        height: 100px;
+    }
+
+    #track_details {
+        font-size: 1.2em;
+    }
+}
